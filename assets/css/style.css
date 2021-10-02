@@ -47,6 +47,10 @@ hr{
     margin: 2rem 0px;
 }
 
+.contact-section{
+    margin-bottom: 2rem;
+}
+
 footer{
     justify-content: center;
 }
@@ -63,4 +67,12 @@ footer{
 a i{
     margin-right: 1rem;
     color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 576px) {
+    .quienes-somos-section {
+      display: none;
+    }
+  }
