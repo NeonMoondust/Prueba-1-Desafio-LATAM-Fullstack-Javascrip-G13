@@ -4,6 +4,7 @@ body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding:
 
 body{
     background-color: #000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section{
@@ -11,7 +12,7 @@ section{
 }
 
 .navbar.navbar-expand-lg.navbar-dark.navbar-main{
-    position: absolute;
+    position: fixed;
     z-index: 10;
     width: 100%;
 }
@@ -72,7 +73,7 @@ a i{
 }
 
 @media only screen and (max-width: 576px) {
-    .quienes-somos-section {
+    .todissapear-label {
       display: none;
     }
   }
