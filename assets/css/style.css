@@ -1,0 +1,66 @@
+/*Normalize------*/
+body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
+/*Normalize------*/
+
+body{
+    background-color: #000;
+}
+
+section{
+    margin-bottom: 10rem;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.navbar-main{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-nav {
+    
+}
+
+.navbar-brand.navbar-logo {
+    font-size: 1rem;
+}
+
+.carousel-inner{
+   height: 40rem;
+}
+
+.carousel-item{
+    height: 100%;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.h2-subtitulo1{
+    color: white;
+    margin: 25px auto;
+    text-align: center;
+}
+hr{
+    border-top: 4px solid rgba(13, 202, 240, 1);
+    position: relative;
+    margin: 2rem 0px;
+}
+
+footer{
+    justify-content: center;
+}
+
+ .titulo-footer{
+    display: inline-block;
+    width: 50%;
+}
+.iconos-footer{
+    display: inline-block;
+    width: 49%;
+}
+
+a i{
+    margin-right: 1rem;
+    color: #fff;
+}
