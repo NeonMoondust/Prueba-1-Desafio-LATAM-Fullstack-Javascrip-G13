@@ -1,37 +1,36 @@
 /*Normalize------*/
 body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
 /*Normalize------*/
-
+/* integration of Font Family to display the default font of this website and a black background */
 body{
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* a default margin bottom to every section of this page */
 section{
     margin-bottom: 10rem;
 }
-
+/* Navbar fixed will follow the scroll around the page and a z-index applied to display */
+/* always over the carousel with 100% due to the lost of the box propertie cause the position:fixed */
 .navbar.navbar-expand-lg.navbar-dark.navbar-main{
     position: fixed;
     z-index: 10;
     width: 100%;
 }
 
-.navbar-nav {
-    
-}
-
+/* A forced fontsize of the logo text */
 .navbar-brand.navbar-logo {
     font-size: 1rem;
 }
-
+/* Default Height of the Carousel to display on the entire viewport at the beggining of the page */
 .carousel-inner{
-   height: 40rem;
+   height: 45rem;
 }
-
+/* a 100% fill height of every item of the carousel not depending of the actual size of the image */
 .carousel-item{
     height: 100%;
 }
+/* making sure that the image fill all the item of the carousel */
 .carousel-item img{
     height: 100%;
     width: 100%;
@@ -42,12 +41,13 @@ section{
     margin: 25px auto;
     text-align: center;
 }
+/* Default style of Hr for the site */
 hr{
     border-top: 4px solid rgba(13, 202, 240, 1);
     position: relative;
     margin: 2rem 0px;
 }
-
+/* making a contact section a margin alone in the dark to maintein the example of the designer*/
 .contact-section{
     margin-bottom: 2rem;
 }
@@ -55,7 +55,7 @@ hr{
 footer{
     justify-content: center;
 }
-
+/* Giving the properties of the divs a inline-block display and occuping the 100% of width with equals ammounts */
  .titulo-footer{
     display: inline-block;
     width: 50%;
@@ -64,14 +64,14 @@ footer{
     display: inline-block;
     width: 49%;
 }
-
+/* Customizing and styling the logos gathered from the fontawesome website */
 a i{
     margin-right: 1rem;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/* media rule to not display the meet us section and meet us navbar option on devices smaller than 576px */
 @media only screen and (max-width: 576px) {
     .todissapear-label {
       display: none;
