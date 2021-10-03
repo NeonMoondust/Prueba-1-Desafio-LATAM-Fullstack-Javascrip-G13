@@ -18,6 +18,12 @@ section{
     width: 100%;
 }
 
+/* giving a certain style to the navbar content to make it more readeable*/
+.navbar-fixed-top.scrolled {
+    background-color: rgba(13, 202, 240, .5);
+    font-weight: 700;
+}
+
 /* A forced fontsize of the logo text */
 .navbar-brand.navbar-logo {
     font-size: 1rem;
@@ -46,6 +52,7 @@ hr{
     border-top: 4px solid rgba(13, 202, 240, 1);
     position: relative;
     margin: 2rem 0px;
+    opacity: 1;
 }
 /* making a contact section a margin alone in the dark to maintein the example of the designer*/
 .contact-section{
